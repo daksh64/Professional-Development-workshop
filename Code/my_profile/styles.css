@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#c98181,#ca93d8,#c2ac9b,#945b53);
+}
+
+header {
+    background-color: #0074D9;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #0074D9;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+#bar-graph-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 80%; /* Adjust the width of the bar graph container as needed */
+    height: 400px; /* Adjust the height of the bar graph container as needed */
+}
+
+.bar {
+    flex: 1;
+    margin: 0 5px;
+    background-color: #0074D9;
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    transition: height 0.5s;
+}
+
+.bar.top-user {
+    background-color: #FF4136; /* Highlight color for top users */
+}
+
+.user-name {
+    font-weight: bold;
+}
+/* ... Previous CSS styles ... */
+
+/* ... Previous CSS styles ... */
+
+#yearly-activity {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(32, 1fr); /* 7 columns for days of the week */
+    gap: 2px;
+    width: 250px; /* Adjust the width of the calendar */
+}
+
+.activity-box {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+    line-height: 20px;
+    padding: 1px; /* Add cell padding of 1px */
+}
+
+.activity-box.low {
+    background-color: #ebedf0;
+}
+
+.activity-box.medium {
+    background-color: #9be9a8;
+}
+
+.activity-box.high {
+    background-color: #40c463;
+}
+
+.activity-box.very-high {
+    background-color: #30a14e;
+}
+
+/* Additional CSS styling as needed */
+

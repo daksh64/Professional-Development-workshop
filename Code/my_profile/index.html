@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Profile</title>
+</head>
+<body>
+    <header>
+        <h1>My Profile</h1>
+    </header>
+    <main>
+        <section id="basic-details">
+            <h2>Basic Details</h2>
+            <p>Full Name: <span id="full-name">Jasleen Kaur</span></p>
+            <p>Username: <span id="username">jasleen</span></p>
+            <p>Email: <span id="email">jasleenk@gmail.com</span></p>
+            <p>Student ID: <span id="student-id">123456</span></p>
+        </section>
+        
+        <section id="courses">
+            <h2>Courses</h2>
+            <h3>Enrolled Courses</h3>
+            <ul id="enrolled-courses">
+                <li><a href="#">Course 1</a></li>
+                <li><a href="#">Course 2</a></li>
+                <li><a href="#">Course 3</a></li>
+            </ul>
+            
+            <h3>Completed Courses</h3>
+            <ul id="completed-courses">
+                <li><a href="#">Course 4</a></li>
+                <li><a href="#">Course 5</a></li>
+            </ul>
+        </section>
+        
+        <section id="leaderboard">
+            <h2>Leaderboard</h2>
+            <div id="bar-graph-container">
+                <!-- Bar graph will be added here dynamically using JavaScript -->
+            </div>
+        </section>
+        
+        <section id="goals">
+            <h2>Goals</h2>
+            <p>Weekly Goal:</p>
+            <form id="weekly-goal-form">
+                <label>
+                    <input type="radio" name="weekly-goal" value="6"> 6 hours
+                </label>
+                <label>
+                    <input type="radio" name="weekly-goal" value="9"> 9 hours
+                </label>
+                <label>
+                    <input type="radio" name="weekly-goal" value="12"> 12 hours
+                </label>
+            </form>
+<section id="yearly-activity">
+            <!-- Yearly activity calendar will be added here dynamically using JavaScript -->
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
