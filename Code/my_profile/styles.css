@@ -9,14 +9,14 @@ header {
     background-color: linear-gradient(#3a0874,#430253,#48034b,#300321);
     color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 main {
     max-width: 800px;
     margin: 20px auto;
     background-color: white;
-    padding: 20px;
+    padding: 10px;
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
