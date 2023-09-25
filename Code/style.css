@@ -15,7 +15,7 @@ input {
   position: relative;
   width: 100%;
   background: linear-gradient(#3a0874,#430253,#48034b,#300321);
-  min-height: 100vh;
+  min-height: 110vh;
 
 }
 
@@ -112,6 +112,7 @@ form.sign-in-form {
 
 .social-text {
   padding: 0.7rem 0;
+  color: #ffffff;
   font-size: 1rem;
   font-style: italic;
 }
