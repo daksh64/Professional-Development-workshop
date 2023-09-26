@@ -1,115 +1,98 @@
-body {
-    font-family: Arial, sans-serif;
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
-    background: linear-gradient(#c98181,#ca93d8,#c2ac9b,#945b53);
 }
 
+/* Set a background color for the body */
+body {
+    background:linear-gradient(#3a0874,#430253,#48034b,#300321);
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
 header {
-    background-color: linear-gradient(#3a0874,#430253,#48034b,#300321);
-    color: white;
+    background:linear-gradient(#3a0874,#430253,#48034b,#300321);
+    color: #fff;
     text-align: center;
     padding: 20px 0;
 }
 
+/* Style the profile title */
+.profile-title {
+    font-size: 24px;
+}
+
+/* Style the main content area */
 main {
     max-width: 800px;
+    border-radius: 1rem;
     margin: 20px auto;
-    background-color: white;
+    background:linear-gradient(#3a0874,#430253,#48034b,#300321);
     padding: 20px;
-    border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
-    margin: 0;
+/* Style profile sections */
+.profile-section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 1rem;
+    background-color: #000000;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
-    margin-top: 20px;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
+/* Style section titles */
+.section-title {
+    font-size: 20px;
+    font-weight: 600px;
     margin-bottom: 10px;
 }
 
-a {
-    text-decoration: none;
-    color: #0074D9;
+/* Style detail labels */
+.detail-label {
+    font-weight: bold;
 }
 
-a:hover {
+/* Style course lists */
+.course-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* Style course list items */
+.course-list li {
+    margin-bottom: 5px;
+}
+
+/* Style links inside course lists */
+.course-list a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* Style links on hover */
+.course-list a:hover {
     text-decoration: underline;
 }
 
-
-#bar-graph-container {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    width: 80%; /* Adjust the width of the bar graph container as needed */
-    height: 400px; /* Adjust the height of the bar graph container as needed */
+/* Style the graph container */
+.graph-container {
+    padding: 20px;
+    border-radius: 1rem;
+    background-color: #000000;
+    border: 3px solid #04ff4f;
 }
 
-.bar {
-    flex: 1;
-    margin: 0 5px;
-    background-color: #0074D9;
-    color: white;
-    border-radius: 3px;
-    text-align: center;
-    transition: height 0.5s;
+/* Style the weekly goal form */
+.goal-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 100px;
 }
 
-.bar.top-user {
-    background-color: #FF4136; /* Highlight color for top users */
-}
-
-.user-name {
-    font-weight: bold;
-}
-/* ... Previous CSS styles ... */
-
-/* ... Previous CSS styles ... */
-
+/* Add spacing for yearly activity calendar */
 #yearly-activity {
     margin-top: 20px;
-    display: grid;
-    grid-template-columns: repeat(32, 1fr); /* 7 columns for days of the week */
-    gap: 2px;
-    width: 250px; /* Adjust the width of the calendar */
 }
-
-.activity-box {
-    width: 20px;
-    height: 20px;
-    border: 1px solid #ddd;
-    text-align: center;
-    line-height: 20px;
-    padding: 1px; /* Add cell padding of 1px */
-}
-
-.activity-box.low {
-    background-color: #ebedf0;
-}
-
-.activity-box.medium {
-    background-color: #9be9a8;
-}
-
-.activity-box.high {
-    background-color: #40c463;
-}
-
-.activity-box.very-high {
-    background-color: #30a14e;
-}
-
-/* Additional CSS styling as needed */
-
