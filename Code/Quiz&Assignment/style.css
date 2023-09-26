@@ -1,0 +1,73 @@
+:root {
+    --color-primary: #3b8eee;
+    --color-danger: #f30272;
+    --color-success: #1B9C85;
+    --color-warning: #F7D060;
+    --color-white: #f8dede;
+    --color-info-dark: #020911;
+    --color-dark: #000000;
+    --color-light: rgba(132, 139, 200, 0.18);
+    --color-dark-variant: #000000;
+    --background-gradient: linear-gradient(to bottom, #f1bbbb, #f0e5b7, #b4e7c3, #9ab7ec);
+}
+
+body {
+    background: var(--background-gradient);
+    background-attachment: fixed; /* Fixed background to prevent scrolling */
+    background-size: cover; /* Cover the entire viewport */
+    font-family: Arial, sans-serif;
+    margin: 0; /* Remove default body margin */
+}
+
+header {
+    color: var(--color-black);
+    text-align: center;
+    padding: 10px 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+form {
+    display: block;
+    margin-top: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+#submit-quiz-button {
+    float: right;
+    margin-top: 10px;
+}
