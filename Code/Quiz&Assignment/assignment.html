@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment-1</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment-1</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
 </head>
 <body>
-    <header>
-        <h1>Assignment-1</h1>
-    </header>
-    <main>
-        <section id="assignment-section">
-            <h2>Instructions</h2>
-            <p id="assignment-instructions">1. Attempt all the questions.<br>2. Time limit: 20 minutes.</p>
-<p id="question-1">Ques 1. What are variables. Explain types of variables.</p>
-<textarea id="assignment-answer" rows="4" cols="50" placeholder="Your answer"></textarea>
-<p id="question-2">Ques 2. What are functions. Explain types of functions.</p>
-<textarea id="assignment-answer" rows="4" cols="50" placeholder="Your answer"></textarea>
-            <form id="assignment-form">
-                
-                <button type="submit">Submit Assignment</button>
-            </form>
-        </section>
-    </main>
-    <script src="script.js"></script>
+  <header class="assignment-header">
+    <h1>Assignment-1</h1>
+  </header>
+  <main class="assignment-main">
+    <section class="assignment-section">
+      <h2>Instructions</h2>
+      <p class="assignment-instructions">1. Attempt all the questions.<br>2. Time limit: 20 minutes.</p>
+      <p class="assignment-question">Ques 1. What are variables. Explain types of variables.</p>
+      <textarea class="assignment-answer" id="assignment-answer-1" rows="4" cols="50" placeholder="Your answer"></textarea>
+      <p class="assignment-question">Ques 2. What are functions. Explain types of functions.</p>
+      <textarea class="assignment-answer" id="assignment-answer-2" rows="4" cols="50" placeholder="Your answer"></textarea>
+      <form class="assignment-form" method="POST">
+        <input type="text" class="assignment-input" name="question-1-answer" placeholder="Answer to Question 1">
+        <input type="text" class="assignment-input" name="question-2-answer" placeholder="Answer to Question 2">
+        <button type="submit" class="assignment-submit">Submit Assignment</button>
+      </form>
+    </section>
+  </main>
 </body>
 </html>
