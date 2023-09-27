@@ -1,0 +1,47 @@
+/* Overall styles */
+body {
+    font-family: sans-serif;
+  }
+  
+  /* Quiz section */
+  #quiz-section {
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  /* Quiz instructions */
+  #quiz-instructions {
+    font-size: 16px;
+  }
+  
+  /* Quiz questions */
+  .quiz-question {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Quiz forms */
+  .quiz-form {
+    margin-bottom: 10px;
+  }
+  
+  /* Quiz answer radio buttons */
+  .quiz-answer {
+    margin-right: 10px;
+  }
+  
+  /* Quiz submit buttons */
+  .quiz-submit {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Quiz submit button hover state */
+  .quiz-submit:hover {
+    background-color: darkblue;
+  }
+  
