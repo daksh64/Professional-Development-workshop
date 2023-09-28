@@ -1,3 +1,4 @@
+<!--ADDS NAVBAR AND HEADER COMPONENTS-->
 <?php
 if(isset($message)){
    foreach($message as $message){
