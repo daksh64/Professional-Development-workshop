@@ -171,16 +171,6 @@ if(isset($_POST['save_list'])){
 
 <!-- videos container section ends -->
 
-
-
-
-
-
-
-
-
-
-
 <?php include 'components/footer.php'; ?>
 
 <!-- custom js file link  -->
