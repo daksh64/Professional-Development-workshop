@@ -8,7 +8,6 @@ if(isset($_COOKIE['user_id'])){
    $user_id = '';
    header('location:home.php');
 }
-
 if(isset($_POST['remove'])){
 
    if($user_id != ''){
@@ -24,6 +23,7 @@ if(isset($_POST['remove'])){
          $message[] = 'removed from likes!';
       }
    }else{
+     
       $message[] = 'please login first!';
    }
 
@@ -53,9 +53,7 @@ if(isset($_POST['remove'])){
 <!-- courses section starts  -->
 
 <section class="liked-videos">
-
    <h1 class="heading">liked videos</h1>
-
    <div class="box-container">
 
    <?php
