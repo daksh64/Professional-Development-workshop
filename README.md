@@ -1,5 +1,3 @@
-## SnehSagar
-
 ### Project Title: E-Learning Platform
 
 #### Team name: EduEvolvers
