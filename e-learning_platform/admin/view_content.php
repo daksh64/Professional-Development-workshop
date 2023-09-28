@@ -1,3 +1,4 @@
+   <!--THIS PAGE FETCHES AND DELETES COMMENTS AND LIKES IN CONTENT-->
 <?php
 
 include '../components/connect.php';
