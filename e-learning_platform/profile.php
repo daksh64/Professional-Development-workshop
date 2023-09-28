@@ -1,3 +1,5 @@
+/*This page will give basic details about the user, including the courses*/
+
 <?php
 
 include 'components/connect.php';
