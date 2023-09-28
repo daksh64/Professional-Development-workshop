@@ -1,3 +1,5 @@
+/*This will give login page to a user to ensure authentication*/
+
 <?php
 
 include 'components/connect.php';
@@ -60,7 +62,6 @@ if(isset($_POST['submit'])){
       <p class="link">Don't have an account? <a href="register.php">Signup Now</a></p>
       <input type="submit" name="submit" value="login now" class="btn">
    </form>
-
 </section>
 
 <?php include 'components/footer.php'; ?>
