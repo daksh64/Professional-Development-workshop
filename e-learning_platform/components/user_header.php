@@ -1,3 +1,4 @@
+<!--ADDS HEADER FOR USER-->
 <?php
 if(isset($message)){
    foreach($message as $message){
