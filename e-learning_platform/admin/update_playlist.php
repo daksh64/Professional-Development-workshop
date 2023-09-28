@@ -1,3 +1,4 @@
+<!--THIS PAGE ADDS AND DELETES PLAYLIST-->
 <?php
 
 include '../components/connect.php';
