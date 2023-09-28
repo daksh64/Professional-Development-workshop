@@ -97,18 +97,6 @@ $total_bookmarked = $select_bookmark->rowCount();
 </section>
 
 <!-- profile section ends -->
-
-
-
-
-
-
-
-
-
-
-
-
 <!-- footer section starts  -->
 
 <footer class="footer">
