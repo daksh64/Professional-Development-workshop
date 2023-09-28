@@ -1,5 +1,6 @@
-<?php
 
+<!--THIS PAGE UPDATES ID AND PASSWORD OF THE USER-->
+<?php
    include '../components/connect.php';
 
    if(isset($_COOKIE['tutor_id'])){
