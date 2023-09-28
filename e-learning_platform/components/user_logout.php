@@ -1,3 +1,4 @@
+<!--THIS PAGE CONNECTS LOGOUT PAGE TO LOGIN FOR USER-->
 <?php
 
    include 'connect.php';
