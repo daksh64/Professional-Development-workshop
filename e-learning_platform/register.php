@@ -1,3 +1,5 @@
+/*This page will be used by a new user, will will register to create an account, so that later on he can login using the same and 
+continue his work and even track his progress*/
 <?php
 
 include 'components/connect.php';
