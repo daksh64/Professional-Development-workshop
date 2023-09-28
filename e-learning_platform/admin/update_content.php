@@ -1,3 +1,4 @@
+<!--THIS PAGE UPDATES CONTENT-->
 <?php
 
 include '../components/connect.php';
