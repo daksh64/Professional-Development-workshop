@@ -1,3 +1,4 @@
+<!--THIS PAGE FETCHES PLAYLISTS-->
 <?php
 
 include '../components/connect.php';
