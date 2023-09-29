@@ -124,18 +124,24 @@ Target: Ensure that at least 70% of enrolled students successfully complete thei
 ●	Personalised Learning  
 
 ### External Interface Specification for EduLearn:
-i. User Interfaces:
-●	EduLearn provides a web-based user interface accessible via popular web browsers such as Chrome, Firefox, and Safari.
-ii. User Authentication: 
-●	EduLearn supports various authentication methods, including manual username/password, email-based self-registration, and integration with external authentication sources (e.g., OAuth).
-iii. API Integrations:
-●	EduLearn supports integration with external systems through APIs, allowing for single sign-on (SSO), content integration, and reporting.
-iv. Authentication and Single Sign-On (SSO) :
-●	just like apple id
-v. Payment:
-●	 Incorporation of payment gateways.
-vi. Google analytics and custom analytics
-vii. Messaging:
+i. User Interfaces:  
+●	EduLearn provides a web-based user interface accessible via popular web browsers such as Chrome, Firefox, and Safari.  
+
+ii. User Authentication:  
+●	EduLearn supports various authentication methods, including manual username/password, email-based self-registration, and integration with external authentication sources (e.g., OAuth).  
+
+iii. API Integrations:  
+●	EduLearn supports integration with external systems through APIs, allowing for single sign-on (SSO), content integration, and reporting.  
+
+iv. Authentication and Single Sign-On (SSO) :  
+●	just like apple id  
+
+v. Payment:  
+●	 Incorporation of payment gateways.  
+
+vi. Google analytics and custom analytics   
+
+vii. Messaging:  
 ●	Real-time notifications. 
 
 
