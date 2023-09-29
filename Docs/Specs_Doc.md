@@ -117,11 +117,12 @@ Target: Maintain a quarterly user retention rate of 80% or higher, indicating st
 Target: Ensure that at least 70% of enrolled students successfully complete their courses, demonstrating course effectiveness and user commitment.
 
 ### Open Issues:
-●	Incorporation of WCAG.
-●	Creation of Classroom.
-●	Utilization Elastic Cloud.
-●	Making Chatbot.
-●	Personalised Learning
+●	Incorporation of WCAG.  
+●	Creation of Classroom.  
+●	Utilization Elastic Cloud.  
+●	Making Chatbot.  
+●	Personalised Learning  
+
 ### External Interface Specification for EduLearn:
 i. User Interfaces:
 ●	EduLearn provides a web-based user interface accessible via popular web browsers such as Chrome, Firefox, and Safari.
