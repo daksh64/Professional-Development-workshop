@@ -19,3 +19,11 @@ Key members:
  ●	Instructors: Educators and subject matter experts interested in creating and delivering courses.  
  
  ●	Administrators: Platform administrators responsible for system management and content moderation.
+
+### How to use
+Just download the zip file. 
+Open xampp
+Start the apache and mysql services
+Now create a database on phpmyadmin
+Import the sql file
+Now, you can run the platform on localhost
