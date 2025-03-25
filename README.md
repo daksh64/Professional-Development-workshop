@@ -3,7 +3,7 @@
 ### Team name: EduEvolvers  
 Project Date: 18/09/2023  
 
-Team Leader & Project Manager:  Kirtpreet Kaur  
+Team Leader & Project Manager:  Daksh Shukla  
 
 Key members:  
  ●	ARYAMAN (21BCS3853)  
